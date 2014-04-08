@@ -1,4 +1,21 @@
 <?php
+/*
+ # MediaWiki 'glamdrol' style sheet
+ # Copyright (C) 2005 by Jordà Polo <jorda AT ettin DOT org>
+ #
+ # Based on 'monobook', by Gabriel Wicke
+ #
+ # This style sheet is free software; you can redistribute it and/or
+ # modify under the terms of the GNU General Public License as
+ # published by the Free Software Foundation; either version 2 of the
+ # License, or (at your option) any later version.
+ #
+ # This style sheet is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY.
+ #
+ # See <http://www.gnu.org/copyleft/gpl.html> for more details.
+ */
+
 if(!defined('MEDIAWIKI')) die();
 
 require_once('includes/SkinTemplate.php');
