@@ -31,7 +31,7 @@ class SkinGlamdrol extends SkinTemplate {
 		$this->template  = 'GlamdrolTemplate';
 	}
 }
-	
+
 class GlamdrolTemplate extends QuickTemplate {
 	/**
 	 * Template filter callback for Glamdrol skin.
@@ -40,6 +40,8 @@ class GlamdrolTemplate extends QuickTemplate {
 	 * outputs a formatted page.
 	 */
 	function execute() {
+		// Suppress warnings to prevent notices about missing indexes in $this->data
+		wfSuppressWarnings();
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 
@@ -126,15 +128,15 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
   <div id="bodyContent">
     <h3 id="siteSub"><?php $this->msg('tagline') ?></h3>
     <div id="contentSub"><?php $this->html('subtitle') ?></div>
-    <?php if($this->data['undelete']) { ?><div id="contentSub"><?php     $this->html('undelete') ?></div><?php } ?>
-    <?php if($this->data['newtalk'] ) { ?><div class="usermessage"><?php $this->html('newtalk')  ?></div><?php } ?>
+    <?php if($this->data['undelete']) { ?><div id="contentSub"><?php $this->html('undelete') ?></div><?php } ?>
+    <?php if($this->data['newtalk'] ) { ?><div class="usermessage"><?php $this->html('newtalk') ?></div><?php } ?>
 
     <!-- start wikipage -->
     <?php $this->html('bodytext') ?>
-    <?php if($this->data['catlinks']) { ?><div id="catlinks"><?php       $this->html('catlinks') ?></div><?php } ?>
+    <?php if($this->data['catlinks']) { $this->html('catlinks'); } ?>
     <!-- end wikipage -->
 
-    <?php if($this->data['lastmod'   ]) { ?><div id="lastmod"><?php    $this->html('lastmod')    ?></div><?php } ?>
+    <?php if($this->data['lastmod']) { ?><div id="lastmod"><?php $this->html('lastmod') ?></div><?php } ?>
     <div class="visualClear"></div>
   </div>
 </div> <!-- end content -->
