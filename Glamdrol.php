@@ -49,10 +49,10 @@ class GlamdrolTemplate extends QuickTemplate {
 
 <meta http-equiv="Content-Type" content="<?php $this->text('mimetype') ?>; charset=<?php $this->text('charset') ?>" />
 <?php $this->html('headlinks') ?>
-<link rel="stylesheet" type="text/css" media="print" href="<?php $this->text('stylepath') ?>/common/commonPrint.css" />
 <link rel="shortcut icon" type="image/png" href="<?php $this->text('stylepath') ?>/<?php $this->text('stylename') ?>/ico.png" />
 
 <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "<?php $this->text('stylepath') ?>/<?php $this->text('stylename') ?>/main.css"; /*]]>*/</style>
+<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "<?php $this->text('stylepath') ?>/common/shared.css"; /*]]>*/</style>
 <?php if($this->data['jsvarurl']) { ?><script type="text/javascript" src="<?php $this->text('jsvarurl') ?>"></script><?php } ?>
 <script type="text/javascript" src="<?php $this->text('stylepath') ?>/common/wikibits.js"></script>
 
