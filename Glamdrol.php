@@ -121,7 +121,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <div id="content">
   <a name="top" id="contentTop"></a>
-  <?php if($this->data['sitenotice']) { ?><div id="siteNotice"><?php $this->html('sitenotice') ?></div><?php } ?>
+  <?php if($this->data['sitenotice']) { ?><div id="siteNotice" class="usermessage sitenotice"><?php $this->html('sitenotice') ?></div><?php } ?>
   <h1 class="firstHeading"><?php $this->text('title') ?></h1>
   <div id="bodyContent">
     <h3 id="siteSub"><?php $this->msg('tagline') ?></h3>
