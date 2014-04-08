@@ -191,7 +191,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <div class="visualClear"></div>
 
   <div id="note">
-    <p><a href="http://www.wesnoth.org/wiki/Wesnoth:Copyrights">Copyright</a> &copy; 2003-2013 The Battle for Wesnoth</p>
+    <p><a href="http://www.wesnoth.org/wiki/Wesnoth:Copyrights">Copyright</a> &copy; 2003-2014 The Battle for Wesnoth</p>
     <p>Powered by <a href="http://www.mediawiki.org/">MediaWiki</a></p>
   </div>
 
