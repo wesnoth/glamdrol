@@ -101,25 +101,6 @@ class GlamdrolTemplate extends QuickTemplate {
 </div>
 
 <div id="main">
-<!-- Google AdSense -->
-<script type="text/javascript"><!--
-google_ad_client = "pub-0517361381516880";
-/* 728x90, created 7/8/08 */
-google_ad_slot = "2533616207";
-google_ad_width = 728;
-google_ad_height = 90;
-google_color_border = "FFFFFF";
-google_color_bg = "FFFBF7";
-google_color_link = "0000FF";
-google_color_text = "000000";
-google_color_url = "008000";
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-
-<!-- End Google AdSense -->
 
 <div id="content">
   <a name="top" id="contentTop"></a>
