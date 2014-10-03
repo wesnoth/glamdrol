@@ -785,9 +785,10 @@ span.diffchange {
 /* table of contents */
 
 #toc, .toc {
-  padding: 5px;
+  padding: 0.8em;
   background: #FAF3E9;
   border: 1px solid #AAA;
+  display: inline-block;
 }
 
 #toc h2, .toc h2 {
