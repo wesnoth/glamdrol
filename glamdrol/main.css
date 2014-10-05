@@ -558,8 +558,11 @@ div.navtemplate {
 }
 
 #bodyContent a[href ^="http://www.wesnoth.org"],
+#bodyContent a[href ^="https://www.wesnoth.org"],
 #bodyContent a[href ^="http://wiki.wesnoth.org"],
-#bodyContent a[href ^="http://forums.wesnoth.org"] {
+#bodyContent a[href ^="https://wiki.wesnoth.org"],
+#bodyContent a[href ^="http://forums.wesnoth.org"],
+#bodyContent a[href ^="https://forums.wesnoth.org"] {
   padding-right: 0;
   background: none;
 }

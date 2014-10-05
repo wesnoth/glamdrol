@@ -103,20 +103,20 @@ class GlamdrolTemplate extends BaseTemplate
 
 <div id="header">
 	<div id="logo">
-		<a href="http://www.wesnoth.org/"><img alt="Wesnoth logo" src="<?php $this->text('stylepath') ?>/glamdrol/wesnoth-logo.jpg" /></a>
+		<a href="//www.wesnoth.org/"><img alt="Wesnoth logo" src="<?php $this->text('stylepath') ?>/glamdrol/wesnoth-logo.jpg" /></a>
 	</div>
 </div>
 
 <div id="nav">
 	<ul>
-		<li><a href="http://www.wesnoth.org/">Home</a></li>
-		<li><a href="http://wiki.wesnoth.org/Play">Play</a></li>
-		<li><a href="http://wiki.wesnoth.org/Create">Create</a></li>
-		<li><a href="http://forums.wesnoth.org/">Forums</a></li>
-		<li><a href="http://wiki.wesnoth.org/Support">Support</a></li>
-		<li><a href="http://wiki.wesnoth.org/Project">Project</a></li>
-		<li><a href="http://wiki.wesnoth.org/Credits">Credits</a></li>
-		<li><a href="http://wiki.wesnoth.org/UsefulLinks">Links</a></li>
+		<li><a href="//www.wesnoth.org/">Home</a></li>
+		<li><a href="//wiki.wesnoth.org/Play">Play</a></li>
+		<li><a href="//wiki.wesnoth.org/Create">Create</a></li>
+		<li><a href="//forums.wesnoth.org/">Forums</a></li>
+		<li><a href="//wiki.wesnoth.org/Support">Support</a></li>
+		<li><a href="//wiki.wesnoth.org/Project">Project</a></li>
+		<li><a href="//wiki.wesnoth.org/Credits">Credits</a></li>
+		<li><a href="//wiki.wesnoth.org/UsefulLinks">Links</a></li>
 	</ul>
 </div>
 
@@ -226,16 +226,16 @@ class GlamdrolTemplate extends BaseTemplate
 
 	<div class="portlet" id="p-fixed" role="navigation">
 		<ul>
-			<li><a href="http://www.wesnoth.org/">Home</a></li>
-			<li><a href="/wiki/Special:Recentchanges">Recent changes</a></li>
-			<li><a href="/wiki/Special:Search">Search</a></li>
+			<li><a href="//www.wesnoth.org/">Home</a></li>
+			<li><a href="//wiki.wesnoth.org/Special:Recentchanges">Recent changes</a></li>
+			<li><a href="//wiki.wesnoth.org/Special:Search">Search</a></li>
 		</ul>
 	</div>
 
 	<div class="visualClear"></div>
 
 	<div id="note" role="contentinfo">
-		<p><a href="http://www.wesnoth.org/wiki/Wesnoth:Copyrights">Copyright</a> &copy; 2003-2014 The Battle for Wesnoth</p>
+		<p><a href="//www.wesnoth.org/wiki/Wesnoth:Copyrights">Copyright</a> &copy; 2003-2014 The Battle for Wesnoth</p>
 		<p>Powered by <a href="http://www.mediawiki.org/">MediaWiki</a></p>
 	</div>
 
