@@ -1,0 +1,88 @@
+/*
+ * Glamdrol supplement for forums.wesnoth.org
+ * Copyright (C) 2013 - 2014 by Ignacio Riquelme Morelle <shadowm2006@gmail.com>
+ *
+ * This style sheet is free software; you can redistribute it and/or
+ * modify under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of the
+ * License, or (at your option) any later version.
+ *
+ * This style sheet is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY.
+ *
+ * See <http://www.gnu.org/copyleft/gpl.html> for more details.
+ */
+
+/*
+ * Release announcements
+ */
+
+.ra-clear {
+	clear: both;
+}
+
+.ra-ctl {
+	float: right;
+}
+
+.ra-ctl a {
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.ra-section,
+.ra-warn,
+.ra-issue {
+	margin-left: 1em;
+	border: 1px dashed #bbb;
+}
+
+.ra-section {
+	border-color: rgba(0,0,0,0.2);
+	background: #ddd;
+	background: rgba(255,255,255,0.2);
+}
+
+.ra-header {
+	display: block;
+	font-weight: bold;
+	font-size: 106%;
+	padding: 0.4em;
+}
+
+.ra-warn {
+	border-color: rgba(255,128,0,0.4);
+	background: #fc6;
+	background: rgba(255,128,0,0.2);
+}
+
+.ra-warn .ra-header {
+	color: #b40;
+}
+
+.ra-issue {
+	border-color: rgba(0,0,0,0.2);
+	background: #fcc;
+	background: rgba(255,204,204,0.4);
+}
+
+.ra-issue .ra-header {
+	color: #a00;
+}
+
+.ra-contents {
+	margin: 0.6em 0 0;
+	padding: 0.4em;
+}
+
+.ra-floatshot {
+	margin: 0.4em;
+}
+
+.ra-floatleft {
+	float: left;
+}
+
+.ra-floatright {
+	float: right;
+}
