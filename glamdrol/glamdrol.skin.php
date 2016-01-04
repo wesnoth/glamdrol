@@ -235,7 +235,7 @@ class GlamdrolTemplate extends BaseTemplate
 	<div class="visualClear"></div>
 
 	<div id="note" role="contentinfo">
-		<p><a href="//wiki.wesnoth.org/Wesnoth:Copyrights">Copyright</a> &copy; 2003&#8211;2015 The Battle for Wesnoth</p>
+		<p><a href="//wiki.wesnoth.org/Wesnoth:Copyrights">Copyright</a> &copy; 2003&#8211;2016 The Battle for Wesnoth</p>
 		<p>Powered by <a href="http://www.mediawiki.org/">MediaWiki</a></p>
 	</div>
 
