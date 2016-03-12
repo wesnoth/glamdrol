@@ -244,7 +244,7 @@ code {
   font-size: 1.1em;
 }
 
-pre, .mw-geshi {
+pre {
   overflow: auto;
   padding: 0.8em 0.5em;
   background: #FBF5EA;
@@ -253,12 +253,8 @@ pre, .mw-geshi {
   border: 1px dashed #918875;
 }
 
-#bodyContent div.mw-geshi li.ln-xtra {
-  background: #FFF599;
-}
-
-#bodyContent div.mw-geshi li.li2 {
-  font-weight: normal;
+#bodyContent .mw-highlight .hll {
+  background-color: #FFF599;
 }
 
 blockquote {
