@@ -253,11 +253,11 @@ pre, .mw-geshi {
   border: 1px dashed #918875;
 }
 
-div.mw-geshi li.ln-xtra {
+#bodyContent div.mw-geshi li.ln-xtra {
   background: #FFF599;
 }
 
-div.mw-geshi li.li2 {
+#bodyContent div.mw-geshi li.li2 {
   font-weight: normal;
 }
 
