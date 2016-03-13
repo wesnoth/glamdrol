@@ -37,6 +37,7 @@ $wgValidSkinNames['glamdrol'] = 'Glamdrol';
 $wgAutoloadClasses['SkinGlamdrol'] = __DIR__ . '/glamdrol.skin.php';
 
 $wgResourceModules['skins.glamdrol'] = array(
+	'position' => 'top',
 	'styles' => array(
 		'glamdrol/main.css' => array('media' => 'screen'),
 	),
