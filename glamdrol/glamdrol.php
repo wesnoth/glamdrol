@@ -27,9 +27,9 @@ $wgExtensionCredits['skin'][] = array(
 	'name'			=> 'Glamdrol',
 	'description'	=> 'The Battle for Wesnoth website theme',
 	'version'		=> '1.2',
-	'url'			=> 'http://www.wesnoth.org/',
-	'author'		=> '[http://r.wesnoth.org/u7 Jordà Polo (ettin)], ' .
-					   '[http://r.wesnoth.org/u104773 Ignacio R. Morelle (shadowm)]',
+	'url'			=> 'https://www.wesnoth.org/',
+	'author'		=> '[https://r.wesnoth.org/u7 Jordà Polo (ettin)], ' .
+					   '[https://r.wesnoth.org/u104773 Ignacio R. Morelle (shadowm)]',
 	'license'		=> 'GPL-2.0+',
 );
 
