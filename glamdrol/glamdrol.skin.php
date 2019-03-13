@@ -2,7 +2,7 @@
 /*
  * MediaWiki 'glamdrol' style sheet
  * Copyright (C) 2005 by Jordà Polo <jorda AT ettin DOT org>
- * Copyright (C) 2014 - 2015 by Ignacio R. Morelle <shadowm@wesnoth.org>
+ * Copyright (C) 2014 - 2015 by Iris Morelle <shadowm@wesnoth.org>
  *
  * Based on 'monobook', by Gabriel Wicke
  *

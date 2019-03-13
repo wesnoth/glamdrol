@@ -1,6 +1,6 @@
 <?php
 /*
- * Random image selector by Ignacio R. Morelle <igriquel@uc.cl>
+ * Random image selector by Iris Morelle <shadowm@wesnoth.org>
  * This file is in public domain
  */
 

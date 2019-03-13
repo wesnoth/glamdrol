@@ -2,7 +2,7 @@
 /*
  * MediaWiki 'glamdrol' style sheet
  * Copyright (C) 2005 by Jordà Polo <jorda AT ettin DOT org>
- * Copyright (C) 2014 - 2015 by Ignacio R. Morelle <shadowm@wesnoth.org>
+ * Copyright (C) 2014 - 2015 by Iris Morelle <shadowm@wesnoth.org>
  *
  * Based on 'monobook', by Gabriel Wicke
  *
@@ -29,7 +29,7 @@ $wgExtensionCredits['skin'][] = array(
 	'version'		=> '1.2',
 	'url'			=> 'https://www.wesnoth.org/',
 	'author'		=> '[https://r.wesnoth.org/u7 Jordà Polo (ettin)], ' .
-					   '[https://r.wesnoth.org/u104773 Ignacio R. Morelle (shadowm)]',
+					   '[https://r.wesnoth.org/u104773 Iris Morelle (shadowm)]',
 	'license'		=> 'GPL-2.0+',
 );
 
